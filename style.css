@@ -1,0 +1,68 @@
+/* Setting header size & font*/ 
+h1 {
+  font-size: 60px;
+  font-family: Copperplate, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Setting p size, font style, padding, shadow & font*/ 
+p {
+  font-size: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 8px 8px 12px white;
+}
+/* Setting font for h2, h3, h4, footer*/ 
+h2, h3, h4, footer {
+  font-family: Monaco;
+}
+/* Setting font for h2*/
+h2 {
+  font-size: 37px;
+}
+/* Setting font for h3 h4*/
+h3, h4 {
+  font-size: 30px;
+}
+/* Placing and formatting background image*/
+body {
+  background-image: url("images/sky.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: lighten;
+}
+
+/* Alligning list to center*/
+ul {
+  text-align: center;
+  list-style-position: inside;
+ }
+/* Placing background color and formating*/
+.edges-header{
+  background-color: #006fb7;
+  margin: -9px 1000px;
+  padding: 1px;
+  border-radius: 50px;
+}
+
+
+/* formatting body*/
+body {
+  width: 100%;
+  height: fill;
+  margin-bottom: -20px; 
+  text-align: center;
+}
+
+/* Styling links*/
+a {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+a:link    { color: darkblue;  }
+a:visited { color: black;   }
+a:hover   { color: yellow; }
+a:active  { color: green;  }
