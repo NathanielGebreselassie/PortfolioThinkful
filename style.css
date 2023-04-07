@@ -6,7 +6,7 @@ h1 {
 
 /* Setting p size, font style, padding, shadow & font*/ 
 p {
-  font-size: 20px;
+  font-size: 23px;
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   padding-top: 20px;
@@ -19,11 +19,12 @@ h2, h3, h4, footer {
 }
 /* Setting font for h2*/
 h2 {
-  font-size: 37px;
+  font-size: 39px;
 }
 /* Setting font for h3 h4*/
 h3, h4 {
-  font-size: 30px;
+  font-size: 35px;
+  font-style: bold;
 }
 /* Placing and formatting background image*/
 body {
