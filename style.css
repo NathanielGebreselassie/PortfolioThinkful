@@ -37,15 +37,16 @@ body {
 
 /* Alligning list to center*/
 ul {
+  font-size: 24px;
   text-align: center;
   list-style-position: inside;
  }
 /* Placing background color and formating*/
 .edges-header{
   background-color: #035891;
-  margin: 0px 45px;
+  margin: 10px 50px;
   padding: 1px;
-  border-radius: 50px;
+  border-radius: 38px;
   border-color: white;
   text-align: center;
 }
@@ -66,7 +67,7 @@ a {
   font-size: 18px;
 }
 
-a:link    { color: darkblue;  }
+a:link    { color: white;  }
 a:visited { color: black;   }
 a:hover   { color: yellow; }
 a:active  { color: green;  }
