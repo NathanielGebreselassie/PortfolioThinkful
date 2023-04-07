@@ -6,7 +6,7 @@ h1 {
 
 /* Setting p size, font style, padding, shadow & font*/ 
 p {
-  font-size: 23px;
+  font-size: 20px;
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   padding-top: 20px;
@@ -19,12 +19,11 @@ h2, h3, h4, footer {
 }
 /* Setting font for h2*/
 h2 {
-  font-size: 39px;
+  font-size: 37px;
 }
 /* Setting font for h3 h4*/
 h3, h4 {
-  font-size: 35px;
-  font-style: bold;
+  font-size: 30px;
 }
 /* Placing and formatting background image*/
 body {
@@ -33,6 +32,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-blend-mode: lighten;
+  text-shadow: 2px 2px 3px #77aada;
 }
 
 /* Alligning list to center*/
@@ -42,10 +42,12 @@ ul {
  }
 /* Placing background color and formating*/
 .edges-header{
-  background-color: #006fb7;
-  margin: -9px 1000px;
+  background-color: #035891;
+  margin: 0px 45px;
   padding: 1px;
   border-radius: 50px;
+  border-color: white;
+  text-align: center;
 }
 
 
@@ -55,6 +57,7 @@ body {
   height: fill;
   margin-bottom: -20px; 
   text-align: center;
+  color: white;
 }
 
 /* Styling links*/
